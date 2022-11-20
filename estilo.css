@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    background-color: rgb(250, 147, 79);
+    display: flex;
+    padding: 18px;
+}
+
+.menu img {
+    width: 220px;
+    height: 120px;
+}
+
+.int {
+    padding: 25px;
+    margin-left: 20vh;
+}
+.int a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 10px;
+
+    font-weight: bold;
+
+}
+.int a:hover {
+    background-color: rgba(255, 254, 254, 0.411);
+    border-radius: 20px;
+    color: rgba(255, 102, 0, 0.74);
+    
+}
+div.int {
+    display: flex;
+    float: right;
+}
+
+div.pesquisa form input {
+    margin-top: 50px;
+    width: 500px;
+    height: 30px;
+}
+
+div.pesquisa input  {
+    border: 2px solid orange;
+    border-radius: 2px;
+}
+
+#submit {
+    width: 65px;
+    height: 34px;
+    margin-top: 50px;
+}
+
+div.pesquisa {
+    display: flex;
+    margin-left: 40px;
+}
+
+div.cont1 {
+    margin-top: 25px;
+    margin-left: 40px;
+    
+    width: 70vh;
+    background-color: rgba(226, 229, 229, 0.877);
+    margin-right: 40px;
+}
+
+div.cont1 h1 {
+    color: rgb(255, 102, 0);
+    text-align: center;
+}
+
+div.cont1 img {
+    width: 170px;
+    padding-left: 35px;
+}
+
+div.cont-inicio {
+    display: flex;
+}
+div.cont-inicio .categorias {
+    padding-top: 60px;
+    color: rgb(255, 255, 255);
+    width: 120vh;
+    margin-top: 25px;
+    background-color: rgba(226, 229, 229, 0.877);
+    background-image: url(imagens/fundo\ laranja\ do\ categorias.jpg);
+    
+}
+.categorias {
+    background: orange;
+    background-size: cover;
+}
+
+.categorias h2 {
+    margin-bottom: 120px;
+    text-align: center;
+}
+.categorias a {
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.849);
+    margin-bottom: 2200px;
+    border-radius: 11px;
+}
+
+.categorias a:active {
+    background-color: rgba(255, 123, 0, 0.829); 
+}
+
+div.app-ban {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 70vh;
+    padding-right: 1.2px;
+    background-color: #FF914D;
+    height: 28vh;
+}
+
+div.inlin {
+    display: flex;
+}
+
+div.new-user {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/*
+div.img-alea {
+    background-image: url(imagens/fundo\ abaixo\ das\ coisas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 40px;
+    width: 95.6%;
+    height: 70vh;
+}
+*/
