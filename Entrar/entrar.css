@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); /* fonte do input submit logjn*/
+
+* {
+    margin: 0px;
+}
+
+body {
+    margin-top: 20vh;
+    background-image: url(imagens/fundo\ login.webp);
+    background-size: cover;
+}
+
+div.box-login {
+
+    margin: auto;
+    background-color: rgba(102, 102, 102, 0.5);
+    width: 420px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+div.imagem img {
+    margin-top: 50px;
+    margin-left: 38%;
+    width: 100px;
+    height: 100px;
+}
+div.imagem h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Anton', sans-serif;
+}
+div.inputs {
+    width: 100px;
+    margin-left: 25%;
+}
+
+div.inputs input {
+    width: 200px;
+    height: 25px;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+
+div.inputs #login {
+    margin-top: 15px;
+    width: 218px;
+    height: 50px;
+    padding: 2px;
+    background-color: rgba(0, 73, 92, 0.836);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: 'Anton', sans-serif;
+}
+div.inputs #login:hover {
+    cursor: pointer;
+}
