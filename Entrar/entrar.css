@@ -17,7 +17,7 @@ div.box-login {
     margin: auto;
     background-color: rgba(102, 102, 102, 0.5);
     width: 420px;
-    height: 420px;
+    height: 440px;
     border-radius: 20px;
 }
 
@@ -37,6 +37,7 @@ div.imagem h1 {
 div.inputs {
     width: 100px;
     margin-left: 25%;
+    margin-bottom: 7px;
 }
 
 div.inputs input {
@@ -58,4 +59,14 @@ div.inputs #login {
 }
 div.inputs #login:hover {
     cursor: pointer;
+}
+
+.E_S .ES {
+    color: white;
+    text-decoration: none;
+    margin-left: 23vh;
+}
+
+.E_S .ES:hover {
+    text-decoration: underline;
 }

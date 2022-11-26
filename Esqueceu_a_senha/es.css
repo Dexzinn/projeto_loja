@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+body{
+    background-color: rgb(189, 142, 55);
+    margin-top: 80px;
+}
+
+.todo {
+    margin: auto;
+    background-color: rgb(156, 59, 59);
+    width: 500px;
+    height: 500px;
+}
