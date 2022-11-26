@@ -115,10 +115,9 @@ div.cont-inicio .categorias {
     border-radius: 11px;
 }
 
-.categorias a:active {
-    background-color: rgba(255, 123, 0, 0.829); 
+.categorias a:hover {
+    background-color: #ff6200ea;
 }
-
 div.app-ban {
     margin-top: 20px;
     margin-left: 40px;
