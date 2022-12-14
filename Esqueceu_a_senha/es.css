@@ -2,15 +2,36 @@
 
 * {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: rgb(189, 142, 55);
+    background-color: rgb(180, 117, 0);
     margin-top: 80px;
 }
 
 .todo {
     margin: auto;
-    background-color: rgb(156, 59, 59);
+    background-color: rgba(112, 111, 111, 0.795);
     width: 500px;
     height: 500px;
+}
+
+h1 {
+    text-align: center;
+    line-height: 202px;
+    color: white;
+}
+
+label {
+    margin-left: 20px;
+    font-size: 11pt;
+    color: white;
+    
+}
+
+input {
+    width: 400px;
+    padding: 9px;
+    margin-left: 35px;
+    margin-top: 60px;
 }

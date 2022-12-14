@@ -135,16 +135,54 @@ div.new-user {
     margin-top: 20px;
     margin-left: 40px;
 }
-/*
-div.img-alea {
-    background-image: url(imagens/fundo\ abaixo\ das\ coisas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: 40px;
-    width: 95.6%;
-    height: 70vh;
+
+@media (max-width: 800px) {
+
+    .menu img {
+        margin-left: 10px;
+        width: 150px;
+        height: 120px;
+    }
+    
+    div.pesquisa input, #submit  {
+        display: none;
+    }
+    
+    div.int {
+        margin-left: -60px;
+    }
+
+    div.cont-inicio {
+        display: grid;
+    }
+
+    div.cont1 {
+        margin-left: 15px;
+    }
+
+    div.cont-inicio .categorias {
+        padding-top: 90px;
+        color: rgb(255, 255, 255);
+        width: 89%;
+        margin-top: 25px;
+        margin-left: 15px;
+        background-color: rgba(226, 229, 229, 0.877);
+        background-image: url(imagens/fundo\ laranja\ do\ categorias.jpg);
+        height: 300px;
+    }
+
+    div.cont-inicio .categorias #cat {
+        display: none;
+        width: 10px;
+        height: 10px;
+        
+    }
+
+    div.app-ban {
+        margin-left: 15px;
+    }
+
+    div.new-user {
+        display: none;
+    }
 }
-
-
-*/ 
