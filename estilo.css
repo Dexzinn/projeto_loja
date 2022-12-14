@@ -139,9 +139,9 @@ div.new-user {
 @media (min-width: 300px) {
 
     .menu img {
-        margin-left: 10px;
-        width: 150px;
-        height: 120px;
+        margin-left: -12px;
+        width: 100px;
+        height: 70px;
     }
     
     div.pesquisa input, #submit  {
@@ -149,7 +149,7 @@ div.new-user {
     }
     
     div.int {
-        margin-left: -60px;
+        margin-left: -90px;
     }
 
     div.cont-inicio {
@@ -157,15 +157,15 @@ div.new-user {
     }
 
     div.cont1 {
-        margin-left: 15px;
+        margin-left: 8px;
     }
 
     div.cont-inicio .categorias {
         padding-top: 90px;
         color: rgb(255, 255, 255);
-        width: 89%;
+        width: 91%;
         margin-top: 25px;
-        margin-left: 15px;
+        margin-left: 8px;
         background-color: rgba(226, 229, 229, 0.877);
         background-image: url(imagens/fundo\ laranja\ do\ categorias.jpg);
         height: 300px;
@@ -179,7 +179,7 @@ div.new-user {
     }
 
     div.app-ban {
-        margin-left: 15px;
+        margin-left: 8px;
     }
 
     div.new-user {
