@@ -136,7 +136,7 @@ div.new-user {
     margin-left: 40px;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 300px) {
 
     .menu img {
         margin-left: 10px;
